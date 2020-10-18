@@ -1,0 +1,10 @@
+Endpoints: /login
+Request type: Post
+Request Parameters:
+      - username: username of the client
+      - password: password of the username
+Response format: JSON
+Possible error:
+      - status 400: client error, missing the username parameters
+      - status 400: client error, missing the password parameters
+      - status 500: server error.
